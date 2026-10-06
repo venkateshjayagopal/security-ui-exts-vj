@@ -14,6 +14,29 @@ entries:
       catalog.cattle.io/ui-component: plugins
       catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
     apiVersion: v2
+    appVersion: 0.9.0
+    created: "2026-10-06T17:41:16.146417948Z"
+    description: SUSE Security Runtime Enforcer extension for Rancher Manager
+    digest: a0e0c9455c1b44db0a99989049ae37e5cf4dcda1e67500149bd29917767ee25b
+    icon: https://raw.githubusercontent.com/rancher/security-ui-exts/main/pkg/runtime-enforcer/assets/img/runtime-enforcer-logo.svg
+    name: runtime-enforcer
+    type: application
+    urls:
+    - assets/runtime-enforcer/runtime-enforcer-0.9.0.tgz
+    version: 0.9.0
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/display-name: SUSE Security Runtime Enforcer
+      catalog.cattle.io/kube-version: '>= v1.16.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/prime-only: "true"
+      catalog.cattle.io/rancher-version: '>= 2.11.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
+    apiVersion: v2
     appVersion: 0.8.0
     created: "2026-10-01T16:23:48.565081182Z"
     description: SUSE Security Runtime Enforcer extension for Rancher Manager
@@ -185,4 +208,4 @@ entries:
     urls:
     - assets/runtime-enforcer/runtime-enforcer-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-01T16:23:48.564716498Z"
+generated: "2026-10-06T17:41:16.145847415Z"
